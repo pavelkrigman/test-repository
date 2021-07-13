@@ -30,6 +30,6 @@ api.add_resource(StoreList, '/stores') # http://127.0.0.1:5000/stores
 
 if __name__ == '__main__':
     db.init_app(app)
-    app.run(port=5000, debug=True)
+    #app.run(port=5000, debug=True)
 
 
